@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css"> <!-- Actualizar la conexión con el doc de estilos -->
     <title>APIs</title>
 </head>
 <body>
-    <p class="name"></p>
-    <p class="blog"></p>
-
-  <script src="../assets/js/app.js"></script>
+  <div class="wrapper box"> <!-- Agregar clases -->
+    <table> <!-- Reestructurar contenido en una tabla -->
+      <tbody>
+        <tr>
+          <th scope="row">Name</th>
+          <td class="name"></td>
+        </tr>
+        <tr>
+          <th scope="row">Blog</th>
+          <td class="blog"></td>
+        </tr>
+        <tr>
+          <th scope="row">Location</th>
+          <td class="location"></td><!-- Añadí otro elemento  con la clase location, para la visualizació de este dato. -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+    
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
